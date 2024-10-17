@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 import pandas as pd
-import numpy as np
+
 
 if __name__ == "__main__":
     # Step 2: Load Data
