@@ -1,4 +1,4 @@
-pip install openai
+#pip install openai
 import streamlit as st
 import openai 
 openai.api_key = "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"  # Replace with your actual OpenAI API key
