@@ -1,7 +1,7 @@
 #pip install openai
 import streamlit as st
 import openai 
-openai.api_key = "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"  # Replace with your actual OpenAI API key
+openai.api_key = "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"  # Replace with your actual OpenAI API key
 def sentiment_analysis(text):
     response = openai.ChatCompletion.create(
         model = "gpt-4",
